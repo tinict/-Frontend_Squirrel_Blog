@@ -1,0 +1,33 @@
+@media only screen and (max-width: 840px) {
+    .container__blog--listing {
+        flex-direction: column;
+    }
+
+    .blog__listing--img {
+        width: 100%;
+        padding-bottom: 60%;
+        margin-bottom: 20px;
+    }
+
+    .blog__listing--info p {
+        font-size: 1.4rem;
+        line-height: 22.4px;
+    }
+
+    .blog-calender {
+        display: block;
+    }
+
+    .container__blog--item {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1020px) {
+
+    .blog__listing--img {
+        width: 50%;
+        padding-bottom: 34%;
+    }
+    
+}
